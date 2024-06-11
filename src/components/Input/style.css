@@ -1,0 +1,9 @@
+.gradient-border {
+  border-radius: 0.25rem; /* Adjust border radius as needed */
+  padding: 1rem; /* Adjust padding as needed */
+  background: linear-gradient(to right, #FFFFFF, #582CFF, #151515);
+  box-shadow: 0 0 0 3px rgba(0, 0, 0, 0), /* Transparent shadow to create space for the border */
+              0 0 0 6px rgba(0, 0, 0, 0.2), /* Shadow for the gradient border */
+              0 0 0 9px rgba(0, 0, 0, 0); /* Transparent shadow to create space for the content */
+  display: inline-block; /* Ensure the border respects the content's size */
+}
