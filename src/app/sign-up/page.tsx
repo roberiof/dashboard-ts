@@ -37,9 +37,9 @@ const SignUp = () => {
                 SIGN UP{' '}
               </Button>
               <p className="text-center text-sm text-[#A0AEC0] font-bold">
-                Don&lsquo;t have an account?{' '}
-                <Link href="/sign-up" className="text-white hover:underline">
-                  Sign up
+                Already have an account?{' '}
+                <Link href="/sign-in" className="text-white hover:underline">
+                  Sign in
                 </Link>
               </p>
             </div>
