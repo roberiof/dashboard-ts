@@ -1,32 +1,18 @@
 'use client'
 import React from 'react'
-import Image from 'next/image'
 import Link from 'next/link'
 import Input from '@atoms/Input/Input'
 import { SwitchLabel } from '@atoms/SwitchLabel/SwitchLabel'
 import Header from '@molecules/Header/Header'
 import { Button } from '@/components/ui/button'
+import HeroImageOnBoarding from '../components/HeroImageOnBoarding'
 
 const SignIn = () => {
   return (
     <>
       <Header />
       <main className="min-h-scr  een min-w-screen text-white flex items-center">
-        <div className="relative lg:w-1/2 lg:min-h-screen hidden lg:items-center lg:justify-center lg:flex-col lg:text-center lg:flex">
-          <Image
-            src={'/login/login.svg'}
-            fill
-            priority
-            className="object-cover -z-10"
-            alt="Login hero"
-          />
-          <h2 className="text-[20px] tracking-[0.4em] font-semibold">
-            INSPIRED BY THE FUTURE:
-          </h2>
-          <h1 className="font-black text-[36px] tracking-[0.2em] gradient-text-black-white">
-            THE VISION UI DASHBOARD
-          </h1>
-        </div>
+        <HeroImageOnBoarding />
         <section className="bg-gradient-to-b from-[#0F123B] via-[#090D2E] to-[#020515] min-h-screen w-full lg:w-1/2 flex items-center justify-center">
           <div className="w-full max-w-[350px] flex flex-col gap-6">
             <div className="space-y-1">
